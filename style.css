@@ -528,7 +528,7 @@ div.item {
         top: 135%;
         width: 131%;
     }
-        .circle {
+    .circle {
         overflow: hidden;
     }
 
@@ -566,4 +566,5 @@ div.item {
         background: #FF0943;
         opacity: 0.6;
         filter: blur(152px);
+    }
 }
