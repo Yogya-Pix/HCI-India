@@ -317,8 +317,8 @@ div.item {
 }
 
 .circles {
-    height: 50%;
-    top: 50%;
+    height: 605px;
+    width: 510px;
 }
 
 .circle1 {
@@ -326,7 +326,7 @@ div.item {
     left: -3.07%;
     right: 56.98%;
     top: 75.1%;
-    bottom: -2.6%;
+    bottom: -22.6%;
     border-radius: 25px;
     background: #FE733A;
     filter: blur(106px);
@@ -356,8 +356,6 @@ div.item {
     filter: blur(135px);
     overflow: hidden;
 }
-
-
 
 .caption {
     margin-left: 40px;
@@ -432,7 +430,7 @@ div.item {
     }
 
     .logo {
-        margin-left: 100px;
+        margin-left: 70px;
     }
 
     .logo img {
@@ -479,6 +477,7 @@ div.item {
         height: 400px;
         left: calc(132% - 580px/2 - 400px);
         margin-top: 60px;
+        border-radius: 25px;
     }
 
     .readmecircle {
@@ -527,5 +526,45 @@ div.item {
     .footer {
         top: 135%;
         width: 131%;
+    }
+
+    .circle {
+        overflow: hidden;
+    }
+
+    .circle1 {
+        position: absolute;
+        width: 509px;
+        height: 290px;
+        left: calc(50% - 509px/2 - 254.5px);
+        top: 936px;
+
+        background: #FF7C13;
+        opacity: 0.3;
+        filter: blur(77px);
+    }
+
+    .circle2 {
+        position: absolute;
+        width: 740px;
+        height: 686.5px;
+        left: calc(50% - 913px/2 + 29.5px);
+        top: 537.5px;
+
+        background: #FDAD18;
+        opacity: 0.7;
+        filter: blur(117px);
+    }
+
+    .circle3 {
+        position: absolute;
+        width: 426px;
+        height: 507px;
+        left: calc(50% - 758px/2 + 268px);
+        top: 716.5px;
+
+        background: #FF0943;
+        opacity: 0.6;
+        filter: blur(152px);
     }
 }
