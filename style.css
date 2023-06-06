@@ -81,6 +81,11 @@ nav a:hover {
     opacity: 0;
 }
 
+.callforpart {
+    width: 184px;
+    overflow: hidden;
+}
+
 .sch:hover .culine {
     opacity: 1;
     transition: 0.4s ease-in;
@@ -117,7 +122,7 @@ nav a:hover {
 }
 
 .call {
-    color: rgba(89, 89, 94, 1);
+    color: rgb(124, 124, 124);
     font-family: sans-serif;
     padding-bottom: 15px;
 }
@@ -228,6 +233,19 @@ nav a:hover {
 }
 
 .readmecircle {
+    position: absolute;
+    width: 134.28px;
+    height: 133.86px;
+    left: 365.73px;
+    top: 18.67px;
+    z-index: 2;
+}
+
+.readmecirecledont {
+    display: none;
+}
+
+.readmecirecledont {
     position: absolute;
     width: 134.28px;
     height: 133.86px;
@@ -451,12 +469,37 @@ div.item {
         bottom: 40px;
     }
 
+    .heading {
+        font-size: 17px;
+    }
+
     .wrapper {
         position: absolute;
-        width: 500px;
+        width: 400px;
         height: 400px;
-        left: calc(120% - 580px/2 - 400px);
+        left: calc(132% - 580px/2 - 400px);
         margin-top: 60px;
+    }
+
+    .readmecircle {
+        display: none;
+    }
+
+    .readmecirecledont {
+        display: block;
+        top: 10px;
+        left: 260px;
+        position: absolute;
+        width: 134.28px;
+        height: 133.86px;
+        z-index: 2;
+    }
+
+    .readme p a {
+        color: rgb(244, 243, 243);
+        left: 258px;
+        font-size: 15px;
+        /* bottom: 70px; */
     }
 
     .slider {
