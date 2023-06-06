@@ -357,8 +357,6 @@ div.item {
     overflow: hidden;
 }
 
-
-
 .caption {
     margin-left: 40px;
     padding-top: 20px;
@@ -432,7 +430,7 @@ div.item {
     }
 
     .logo {
-        margin-left: 100px;
+        margin-left: 70px;
     }
 
     .logo img {
@@ -479,6 +477,7 @@ div.item {
         height: 400px;
         left: calc(132% - 580px/2 - 400px);
         margin-top: 60px;
+        border-radius: 25px;
     }
 
     .readmecircle {
@@ -528,6 +527,7 @@ div.item {
         top: 135%;
         width: 131%;
     }
+	
     .circle {
         overflow: hidden;
     }
