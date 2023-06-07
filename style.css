@@ -54,6 +54,10 @@ nav a:hover {
 
 }
 
+.alignthree{
+    display: none;
+}
+
 .menu {
     display: flex;
     align-items: center;
@@ -95,6 +99,10 @@ nav a:hover {
     padding: 0px 25px;
     font-size: 12px;
     display: block;
+}
+
+.xmark{
+    display: none;
 }
 
 .wrapper {
@@ -425,8 +433,77 @@ div.item {
 
 
 @media screen and (max-width: 600px) {
-    .topnav {
+    .navdont{
         display: none;
+    }
+
+    .navshow{
+        display: flex;
+    }
+
+    .topnav{
+        flex-direction: column;
+        position: absolute;
+        top: 115px;
+        left: 0;
+        justify-content: center;
+        width: 130%;
+        align-items: center;
+        z-index: 50;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        color: white;
+        background: linear-gradient(121.81deg, #ffaa009c 15.75%, #ff7d13c0 36.25%, #ff0942c3 82.91%, #ff0048b5 86.44%), #ffffff;
+    }
+
+    .topnav li{
+        margin-top: 20px;
+    }
+
+    .menu p{
+        font-size: 15px;
+    }
+
+    #w1{
+        width: 331px;
+    }
+
+    #w2{
+        width: 90px;
+    }
+
+    .callforpart{
+        width: 220px;
+    }
+
+    .alignthreedont{
+        display: none;
+    }
+
+    .alignthreeshow{
+        display: block;
+    }
+
+    .alignthree{
+        position: absolute;
+        left: 403px;
+        top: 45px;
+        z-index: 50;
+    }
+
+    .xmarkdont{
+        display: none;
+    }
+
+    .xmarkshow{
+        display: block;
+    }
+
+    .xmark{
+        position: absolute;
+        left: 403px;
+        top: 45px;
+        z-index: 50;
     }
 
     .logo {
